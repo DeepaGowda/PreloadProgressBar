@@ -1,0 +1,28 @@
+{
+  "name": "loadingbar_es6_webpack",
+  "version": "1.0.0",
+  "description": "''",
+  "private":true,
+  "scripts": {
+    "test": "testing",
+    "dev": "webpack --mode development",
+    "build": "webpack ./src/index.js dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepaGowda/PreloadProgressBar.git"
+  },
+  "keywords": [
+    "progress_bar"
+  ],
+  "author": "abc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeepaGowda/PreloadProgressBar/issues"
+  },
+  "homepage": "https://github.com/DeepaGowda/PreloadProgressBar#readme",
+  "devDependencies": {
+    "webpack": "^4.15.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
